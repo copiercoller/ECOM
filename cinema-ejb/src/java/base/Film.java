@@ -37,15 +37,21 @@ public class Film implements Serializable {
     private String affiche;
     private int runtime;
     private String release;
+    private float prix ;
 
-    public Film(Long id) {
+    public Film(Long id, float prix) {
         setId(id);
+        this.prix=prix;
+        
     }
 
     public Film() {
     }
 
-
+public float getPrix()
+{
+    return prix;
+}
 
     public Long getId() {
         return id;

@@ -39,22 +39,16 @@ public class Add extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-                    out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Test</title>");            
-            out.println("</head>");
-            out.println("<body>");
         try {
             
             javax.naming.Context ic = new javax.naming.InitialContext();
             InterfaceManageFilm f = (InterfaceManageFilm) ic.lookup("java:global/cinema/cinema-ejb/manage_film");
             
             /* TODO output your page here. You may use following sample code. */
-
-            if (f.addFilm(new Long(request.getParameter("id"))))
+            String titre = f.addFilm(new Long(request.getParameter("id")),Float.parseFloat(request.getParameter("prix")));
+            if (titre!=null)
             {
-                out.println("<p>Film ajouté avec succés</p>");
+                out.println("<p>"+titre+" ajouté avec succés</p>");
             }
             else
             {

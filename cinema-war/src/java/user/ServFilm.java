@@ -60,6 +60,7 @@ public class ServFilm extends HttpServlet {
             out.println("<h1>" +film.getTitre() + "</h1>");
             out.println("<p>" +film.getRelease() + "</p>");
             out.println("<p>" +film.getRuntime() + " minutes</p>");
+            out.println("<p>" +film.getPrix() + " €</p>");
             out.println("<img src=\"" +film.getAffiche("w500") + "\" />");
             }
             else

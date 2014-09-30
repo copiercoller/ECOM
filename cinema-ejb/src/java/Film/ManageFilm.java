@@ -20,19 +20,16 @@ import javax.persistence.PersistenceContext;
 public class ManageFilm implements InterfaceManageFilm{
 @PersistenceContext
 public EntityManager em;
-    public boolean addFilm(Long id)
+@Override
+    public String addFilm(Long id, float prix)
     {
-        Film f = new Film(id);
+        Film f = new Film(id,prix);
         f.load();
         if (f.getTitre()!=null)
         {
         em.persist(f);
-        return true;
         }
-        else
-        {
-        return false;
-        }
+        return f.getTitre();
     }
 
 }

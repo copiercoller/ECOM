@@ -14,5 +14,5 @@ import javax.ejb.Remote;
 @Remote
 public interface InterfaceManageFilm {
     
-    public boolean addFilm(Long id);
+    public String addFilm(Long id, float prix);
 }
