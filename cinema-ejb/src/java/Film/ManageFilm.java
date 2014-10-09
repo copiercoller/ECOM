@@ -31,5 +31,11 @@ public EntityManager em;
         }
         return f.getTitre();
     }
+    
+    public void delFilm(Long id) {
+        Film f = em.find(Film.class, id);
+        em.remove(f);
+    }
+
 
 }

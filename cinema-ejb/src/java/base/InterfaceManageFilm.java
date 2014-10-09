@@ -15,4 +15,5 @@ import javax.ejb.Remote;
 public interface InterfaceManageFilm {
     
     public String addFilm(Long id, float prix);
+    public void delFilm(Long id);
 }

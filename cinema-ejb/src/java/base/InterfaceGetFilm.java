@@ -17,5 +17,5 @@ import javax.ejb.Stateless;
 @Remote
 public interface InterfaceGetFilm {
    public Film getFilm(Long id);
-public List<Film> getAllFilm();
+   public List<Film> getAllFilm();
 }
