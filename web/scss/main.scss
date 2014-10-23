@@ -1,0 +1,86 @@
+$background : -webkit-linear-gradient(left, #111, #666, #666, #666, #111);
+body {
+    background: $background;
+    color: #fff;
+    header {
+        border-radius: 0 !important;
+        #banner {
+            color: #000;
+            border-bottom: 10px #088A08;
+        }
+        .userTools {
+            z-index: 10000;
+            background: -webkit-linear-gradient(left, #111, #666, #666, #666, #111);
+            display: inline-block;
+            position: fixed;
+            right: 0; top: 0;
+            padding: 2px 20px;
+            border-radius:0 0 0 50px;
+            font-size: 12px;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        margin-bottom: 20px;
+    }
+    #search-form {
+        input[type="search"] {
+            padding: 6px 6px;
+        }
+    }
+    section {
+        .exclus {
+            .film {
+                position: relative;
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                    box-shadow: 2px 2px 3px #080808;
+                    &hover {
+                        top: 2px;
+                    }
+                }
+            }
+        }
+        .jumbotron {
+            color: #000;
+        }
+        .film_title {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+        }
+        .form-signin {
+            padding: 15px;
+            float: none;
+            margin: 0 auto;
+            color: #000;
+            .form-signin-heading, .checkbox {
+                margin-bottom: 10px;
+            }
+            .checkbox {
+                font-weight: normal;
+            }
+            .form-group > label {
+                text-align: right;
+                padding: 2px;
+                line-height: 2;
+            }
+            input[type="date"] {
+                width: 80%;
+            }
+        }
+    }
+    footer {
+        .footer-elem {
+            margin: auto;
+            text-align: center;
+            ul {
+                li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+}

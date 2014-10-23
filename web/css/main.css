@@ -1,0 +1,60 @@
+body {
+  background: -webkit-linear-gradient(left, #111, #666, #666, #666, #111);
+  color: #fff; }
+  body header {
+    border-radius: 0 !important;
+    margin-bottom: 20px; }
+    body header #banner {
+      color: #000;
+      border-bottom: 10px #088A08; }
+    body header .userTools {
+      z-index: 10000;
+      background: -webkit-linear-gradient(left, #111, #666, #666, #666, #111);
+      display: inline-block;
+      position: fixed;
+      right: 0;
+      top: 0;
+      padding: 2px 20px;
+      border-radius: 0 0 0 50px;
+      font-size: 12px; }
+      body header .userTools a {
+        color: #fff;
+        text-decoration: none; }
+  body #search-form input[type="search"] {
+    padding: 6px 6px; }
+  body section .exclus .film {
+    position: relative; }
+    body section .exclus .film img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 2px 2px 3px #080808; }
+      body section .exclus .film imghover {
+        top: 2px; }
+  body section .jumbotron {
+    color: #000; }
+  body section .film_title {
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
+  body section .form-signin {
+    padding: 15px;
+    float: none;
+    margin: 0 auto;
+    color: #000; }
+    body section .form-signin .form-signin-heading, body section .form-signin .checkbox {
+      margin-bottom: 10px; }
+    body section .form-signin .checkbox {
+      font-weight: normal; }
+    body section .form-signin .form-group > label {
+      text-align: right;
+      padding: 2px;
+      line-height: 2; }
+    body section .form-signin input[type="date"] {
+      width: 80%; }
+  body footer .footer-elem {
+    margin: auto;
+    text-align: center; }
+    body footer .footer-elem ul li {
+      list-style: none; }
+
+/*# sourceMappingURL=main.css.map */
