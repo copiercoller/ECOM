@@ -22,27 +22,31 @@
         <section>
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-7">
-                        <div class="jumbotron">
-                            <h2>Texte de bienvenue</h2>
+                        <div class="well">
+                            <h2 class="well-title">Texte de bienvenue</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                                 enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                                 nisi ...
                             </p>
                             <a href="#">FAQ</a><br />
                             <a href="#">Demo</a>
-                            <hr /><center>
+                            <hr />
+                            <center>
                                 <a href="signup.jsp" class="btn btn-primary btn-lg">Inscription</a>
                                 <a href="customers/" class="btn btn-success btn-lg">Connexion</a>
                             </center>
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <div class="jumbotron">
-                            <object type="application/x-shockwave-flash" width="100%" data="http://www.youtube.com/v/_etwz7NkemE&amp;hl=fr">
+                        <div class="well">
+                            <h2 class="well-title">Demo</h2>
+                            <object type="application/x-shockwave-flash" width="100%" height="212px" data="http://www.youtube.com/v/_etwz7NkemE&amp;hl=fr">
                                 <param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" />
                                 <param name="wmode" value="transparent" />
                             </object>

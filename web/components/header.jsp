@@ -1,7 +1,7 @@
-<header id="navbar-top" class="banner navbar navbar-default" role="banner">
+<header>
     <div id="banner">
         <div id="logo">
-            <h1>Projet ECOM</h1>
+            <img src="img/logo.png" />
         </div>
         <div class="userTools">
             <a href="#" id="login">Connexion</a>
