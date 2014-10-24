@@ -53,35 +53,36 @@
                         </div>
                     </div>
                 </div>
-
-                <h1>Exclus</h1>
-                <hr />
-                <div class="row exclus">
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <a href="affiche.jsp">
-                            <img class="cover" src="http://image.tmdb.org/t/p/w300//3UBQGKS8c1dxRnDiu5kUK6ej3pP.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                            <span class="film_title">Titre 1</span>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <img class="cover" src="http://image.tmdb.org/t/p/w300//2lECpi35Hnbpa4y46JX0aY3AWTy.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                        <span class="film_title">Titre 1</span>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <img class="cover" src="http://image.tmdb.org/t/p/w300//cVJaWyM9Pn8MSJO8MCnwkuJnGlj.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                        <span class="film_title">Titre 1</span>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <img class="cover" src="http://image.tmdb.org/t/p/w300//fQMSaP88cf1nz4qwuNEEFtazuDM.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                        <span class="film_title">Titre 1</span>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <img class="cover" src="http://image.tmdb.org/t/p/w300//3UBQGKS8c1dxRnDiu5kUK6ej3pP.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                        <span class="film_title">Titre 1</span>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-12 film">
-                        <img class="cover" src="http://image.tmdb.org/t/p/w300//2lECpi35Hnbpa4y46JX0aY3AWTy.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
-                        <span class="film_title">Titre 1</span>
+                <div class="well well-exclus">
+                    <h1 class="well-title">Exclus</h1>
+                    <hr />
+                    <div class="row exclus">
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp">
+                                <img class="cover" src="http://image.tmdb.org/t/p/w300//3UBQGKS8c1dxRnDiu5kUK6ej3pP.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                                <span class="film_title">Titre 1</span>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp"> <img class="cover" src="http://image.tmdb.org/t/p/w300//2lECpi35Hnbpa4y46JX0aY3AWTy.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                            <span class="film_title">Titre 2</span></a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp"> <img class="cover" src="http://image.tmdb.org/t/p/w300//cVJaWyM9Pn8MSJO8MCnwkuJnGlj.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                            <span class="film_title">Titre 3</span></a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp"> <img class="cover" src="http://image.tmdb.org/t/p/w300//fQMSaP88cf1nz4qwuNEEFtazuDM.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                            <span class="film_title">Titre 4</span></a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp"> <img class="cover" src="http://image.tmdb.org/t/p/w300//3UBQGKS8c1dxRnDiu5kUK6ej3pP.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                            <span class="film_title">Titre 5</span></a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12 film">
+                            <a href="affiche.jsp"><img class="cover" src="http://image.tmdb.org/t/p/w300//2lECpi35Hnbpa4y46JX0aY3AWTy.jpg?api_key=63d250a5b71c307f7592228c79b729cf" />
+                            <span class="film_title">Titre 6</span></a>
+                        </div>
                     </div>
                 </div>
             </div>

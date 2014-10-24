@@ -6,13 +6,15 @@ body {
   body header {
     margin-bottom: 20px;
     margin-top: 0; }
+    body header #banner-img, body header #logo {
+      display: inline-block; }
     body header #logo {
-      padding: 0 10px; }
+      padding: 0 20px; }
       body header #logo img {
         height: 80px; }
     body header #banner {
       color: #000;
-      background: url("../img/greenNoise.jpg");
+      background: linear-gradient(to bottom, #fff 0, #eee 100%);
       border-bottom: 3px inset #729d47; }
     body header .userTools {
       z-index: 10000;
@@ -28,11 +30,13 @@ body {
         color: #fff;
         text-decoration: none; }
     body header .navbar-nav > li:hover {
-      background: #729d47; }
-      body header .navbar-nav > li:hover a {
-        color: #fff; }
+      background: #ADD881; }
+    body header .navbar-collapse .pull-right {
+      margin-right: -30px; }
   body #search-form input[type="search"] {
     padding: 6px 6px; }
+  body section .well-exclus {
+    margin-top: 5px; }
   body section .exclus .film {
     position: relative; }
     body section .exclus .film img {
@@ -46,8 +50,9 @@ body {
     body section .well .well-title {
       margin: 0 auto 20px 0;
       padding-bottom: 10px;
-      border-bottom: 1px solid #666; }
+      border-bottom: 1px solid #729d47; }
   body section .film_title {
+    margin-top: 5px;
     display: inline-block;
     text-align: center;
     width: 100%; }
@@ -69,7 +74,10 @@ body {
   body footer .footer-elem {
     margin: auto;
     text-align: center; }
-    body footer .footer-elem ul li {
-      list-style: none; }
+    body footer .footer-elem ul {
+      margin: 0;
+      padding: 0; }
+      body footer .footer-elem ul li {
+        list-style: none; }
 
 /*# sourceMappingURL=main.css.map */

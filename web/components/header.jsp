@@ -1,7 +1,12 @@
 <header>
     <div id="banner">
         <div id="logo">
-            <img src="img/logo.png" />
+            <a href="/ECOMTemplate">
+                <img src="img/logo.png" />
+            </a>
+        </div>
+        <div id="banner-img">
+            <img src="img/bann.png" />
         </div>
         <div class="userTools">
             <a href="#" id="login">Connexion</a>
@@ -18,15 +23,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp">Projet ECOM</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                    <li class="active"><a href="/ECOMTemplate"><i class="glyphicon glyphicon-home"></i> Home</a></li>
                     <li><a href="#films"><i class="glyphicon glyphicon-facetime-video"></i> Films</a></li>
                     <li><a href="#autres">FAQ</a></li>
-                    <li><a href="#menu3">Menu 3</a></li>
-                    <li><a href="#menu4">Menu 4</a></li>
+                    <li><a href="#menu3">Demo</a></li>
                 </ul>
                 <div class="col-sm-3 col-md-3 pull-right">
                     <form class="navbar-form" role="search" id="search-form">
